@@ -1,0 +1,35 @@
+.plans__plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.plans__plan:hover {
+    opacity: 1
+}
+
+.plans__plan>button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #77004a;
+    font-weight: 600;
+    border: none;
+    cursor: pointer
+}
+
+.plans__plan--disabled>button {
+    background-color: #808080 !important;
+}
+
+.plans__paymentTestButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #77004a;
+    font-weight: 600;
+    border: none;
+    cursor: pointer
+}
